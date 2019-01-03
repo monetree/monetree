@@ -1,16 +1,16 @@
 import datetime
 
-AWS_ACCESS_KEY_ID = 'AKIAJFW75QDDDK5SCKPA'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = 'AKIAJ6S67FYTCMI2KETA'
+AWS_SECRET_ACCESS_KEY = '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'
 
 AWS_FILE_EXPIRE = 200
 AWS_PRELOAD_METADATA = True
 AWS_QUERYSTRING_AUTH = True
 
-DEFAULT_FILE_STORAGE = 'djangodeploy.aws.utils.MediaRootS3BotoStorage'
-STATICFILES_STORAGE = 'djangodeploy.aws.utils.StaticRootS3BotoStorage'
-AWS_STORAGE_BUCKET_NAME = 'django-static-file'
-S3DIRECT_REGION = 'us-east-1'
+DEFAULT_FILE_STORAGE = 'monetimes.aws.utils.MediaRootS3BotoStorage'
+STATICFILES_STORAGE = 'monetimes.aws.utils.StaticRootS3BotoStorage'
+AWS_STORAGE_BUCKET_NAME = 'monetimes-static-bucket'
+S3DIRECT_REGION = 'ap-south-1'
 S3_URL = '//%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
 MEDIA_URL = '//%s.s3.amazonaws.com/media/' % AWS_STORAGE_BUCKET_NAME
 MEDIA_ROOT = MEDIA_URL
