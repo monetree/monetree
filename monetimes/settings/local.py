@@ -120,14 +120,10 @@ USE_TZ = True
 
 #for local and nginx
 STATIC_URL = '/static/'
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'static_files/')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 MEDIA_URL='/media/'
-
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
-
 
 # conf for aws-s3
 # STATIC_URL = '/static/'
