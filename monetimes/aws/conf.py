@@ -1,5 +1,12 @@
 import datetime
 
+#soubhagyakumar666@gmail.com
+# AWS_ACCESS_KEY_ID = 'AKIAJL4R5TFWJDSXDPZA'
+# AWS_SECRET_ACCESS_KEY = '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'
+# AWS_STORAGE_BUCKET_NAME = 'monetimes-django-static-bucket'
+# S3DIRECT_REGION = 'ap-south-1'
+
+#soubhagya.developer@gmail.com
 AWS_ACCESS_KEY_ID = 'AKIAJFW75QDDDK5SCKPA'
 AWS_SECRET_ACCESS_KEY = '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'
 
