@@ -1,2 +1,6 @@
 env/
 db.sqlite3
+
+
+src/landing/__pycache__
+src/landing/__pycache__
