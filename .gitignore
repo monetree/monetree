@@ -3,4 +3,6 @@ db.sqlite3
 
 
 src/landing/__pycache__
-src/landing/__pycache__
+src/monetimes/aws/__pycache__
+src/monetimes/settings/__pycache__
+src/monetimes/__pycache__
